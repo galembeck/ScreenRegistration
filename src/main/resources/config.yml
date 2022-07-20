@@ -1,0 +1,47 @@
+#    _____  ______ _____  ______    _____  _____ _____  ______ ______ _   _
+#   |  __ \|  ____|  __ \|  ____|  / ____|/ ____|  __ \|  ____|  ____| \ | |
+#   | |__) | |__  | |  | | |__    | (___ | |    | |__) | |__  | |__  |  \| |
+#   |  _  /|  __| | |  | |  __|    \___ \| |    |  _  /|  __| |  __| | . ` |
+#   | | \ \| |____| |__| | |____   ____) | |____| | \ \| |____| |____| |\  |
+#   |_|  \_\______|_____/|______| |_____/ \_____|_|  \_\______|______|_| \_|
+
+# Website: https://www.redescreen.com
+# Discord: discord.gg/redescreen
+
+Scoreboard:
+  display-name: '&6&lSCREEN'
+
+#  login-field:
+#    - ''
+#    - '&fAutentique-se'
+#    - '&7Use /logar para'
+#    - '&7se autenticar.'
+#    - ''
+
+  authentication: ' &fAutentique-se'
+  authentication-description: ' &7Use /logar para'
+  authentication-lore: ' &7se autenticar'
+
+  registration: ' &fRegistre-se'
+  registration-description: ' &7Use /registrar para'
+  registration-lore: ' &7se registrar'
+
+  website-store: '&ewww.redescreen.com'
+
+Messages:
+  validation:
+    -  ''
+    - "&cPor favor, aguarde a validação de sua conta."
+    - "&aConta validada com sucesso!"
+    - "&cCalma aí! Você já está se conectando a esse servidor."
+
+  login-information:
+    - ''
+    - ' &6&lSCREEN &7➜ &eÁrea de entrada'
+    - ' &7Seja bem-vindo ao Screen Network.'
+    - ''
+    - ' &fUse &e/login <senha> &fpara entrar em nosso servidor.'
+    - ' &fUse &e/mudarsenha <senha atual> <senha antiga> para trocar sua senha.'
+    - ''
+    - ' &fLhe desejamos um ótimo jogo! &c❤'
+    - ''
