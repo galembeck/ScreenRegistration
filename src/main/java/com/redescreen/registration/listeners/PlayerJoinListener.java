@@ -52,5 +52,6 @@ public class PlayerJoinListener implements Listener {
         for (String loginInformationStringList : Registration.plugin.getConfig().getStringList("Messages.login-information")) {
             player.sendMessage(loginInformationStringList.replace("&", "§").replace("@", "➜").replace("^", "❤"));
         }
+//        player.sendMessage(Registration.plugin.getConfig().getString("Messages.teste"));
     }
 }

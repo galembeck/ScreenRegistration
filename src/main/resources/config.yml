@@ -12,12 +12,12 @@ Scoreboard:
   display-name: '&6&lSCREEN'
 
   authentication: ' &fAutentique-se'
-  authentication-description: ' &7Use /logar para'
-  authentication-lore: ' &7se autenticar'
+  authentication-description: " &7Use /logar para"
+  authentication-lore: ' &7se autenticar.'
 
   registration: ' &fRegistre-se'
   registration-description: ' &7Use /registrar para'
-  registration-lore: ' &7se registrar'
+  registration-lore: ' &7se registrar.'
 
   website-store: '&ewww.redescreen.com'
 
@@ -28,8 +28,6 @@ Messages:
     - "&aConta validada com sucesso!"
     - "&cCalma a\u00EC! Voc\u00EA j\u00E1 est\u00E1 se conectando a esse servidor."
 
-  login-header: '&6&lREDE SCREEN'
-  login-footer: '&fSeja bem-vindo!'
   login-information:
     - ''
     - " &6&lSCREEN &7@ &e\u00C1rea de entrada"
@@ -40,3 +38,5 @@ Messages:
     - ''
     - " &fLhe desejamos um \u00F3timo jogo! &c^"
     - ''
+
+#  teste: "AAAAAA\naaaaaaa"
