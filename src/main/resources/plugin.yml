@@ -1,7 +1,7 @@
 main: com.redescreen.registration.Registration
 
 name: ScreenRegistration
-version: 1.0.2
+version: 1.0.1
 description: Plugin (in Java language) created in order to study/deepen the language, as well as joining a development team for Minecraft server systems, among them my favorite, Rede Screen.
 
 #depend: [TitleAPI]

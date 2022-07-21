@@ -11,13 +11,6 @@
 Scoreboard:
   display-name: '&6&lSCREEN'
 
-#  login-field:
-#    - ''
-#    - '&fAutentique-se'
-#    - '&7Use /logar para'
-#    - '&7se autenticar.'
-#    - ''
-
   authentication: ' &fAutentique-se'
   authentication-description: ' &7Use /logar para'
   authentication-lore: ' &7se autenticar'
@@ -31,17 +24,19 @@ Scoreboard:
 Messages:
   validation:
     -  ''
-    - "&cPor favor, aguarde a validação de sua conta."
+    - "&cPor favor, aguarde a valida\u00E7\u00E3o de sua conta."
     - "&aConta validada com sucesso!"
-    - "&cCalma aí! Você já está se conectando a esse servidor."
+    - "&cCalma a\u00EC! Voc\u00EA j\u00E1 est\u00E1 se conectando a esse servidor."
 
+  login-header: '&6&lREDE SCREEN'
+  login-footer: '&fSeja bem-vindo!'
   login-information:
     - ''
-    - ' &6&lSCREEN &7➜ &eÁrea de entrada'
-    - ' &7Seja bem-vindo ao Screen Network.'
+    - " &6&lSCREEN &7@ &e\u00C1rea de entrada"
+    - " &7Seja bem-vindo ao Screen Network."
     - ''
-    - ' &fUse &e/login <senha> &fpara entrar em nosso servidor.'
-    - ' &fUse &e/mudarsenha <senha atual> <senha antiga> para trocar sua senha.'
+    - " &fUse &e/login <senha> &fpara entrar em nosso servidor."
+    - " &fUse &e/mudarsenha <senha atual> <senha antiga> &fpara trocar sua senha."
     - ''
-    - ' &fLhe desejamos um ótimo jogo! &c❤'
+    - " &fLhe desejamos um \u00F3timo jogo! &c^"
     - ''

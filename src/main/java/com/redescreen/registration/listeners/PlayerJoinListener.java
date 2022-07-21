@@ -1,6 +1,5 @@
 package com.redescreen.registration.listeners;
 
-import com.google.common.base.Charsets;
 import com.redescreen.registration.Registration;
 import org.bukkit.Bukkit;
 import org.bukkit.entity.Player;
@@ -10,6 +9,8 @@ import org.bukkit.event.player.PlayerJoinEvent;
 import org.bukkit.scoreboard.*;
 
 public class PlayerJoinListener implements Listener {
+
+//    public Registration plugin;
 
     @EventHandler
     public void onPlayerJoin(PlayerJoinEvent e) {
@@ -41,17 +42,15 @@ public class PlayerJoinListener implements Listener {
 
         objective.getScore(Registration.plugin.getConfig().getString("Scoreboard.website-store").replace("&", "§")).setScore(1);
 
-//        for (String loginField : Registration.plugin.getConfig().getStringList("Scoreboard.login-field")) {
-//            objective.getScore(loginField.replace("&", "§")).setScore(1);
-//        }
-
         player.setScoreboard(scoreboard);
     }
 
     public void sendValidationInformation(Player player) {
-        player.sendMessage("§cPor favor, aguarde a validação de sua conta.");
-//        for (String validationStringList : Registration.plugin.getConfig().getStringList("Messages.validation")) {
-//            player.sendMessage(validationStringList.replace("&", "§"));
-//        }
+        for (String validationStringList : Registration.plugin.getConfig().getStringList("Messages.validation")) {
+            player.sendMessage(validationStringList.replace("&", "§"));
+        }
+        for (String loginInformationStringList : Registration.plugin.getConfig().getStringList("Messages.login-information")) {
+            player.sendMessage(loginInformationStringList.replace("&", "§").replace("@", "➜").replace("^", "❤"));
+        }
     }
 }
